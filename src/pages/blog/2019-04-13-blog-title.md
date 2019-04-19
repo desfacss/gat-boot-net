@@ -1,7 +1,7 @@
 ---
 contentType: blog
 path: /title
-title: blow with Carousel
+title: blog with Carousel
 date: 2019-04-13T09:04:21.173Z
 attachments:
   - filename: /files/bub-green.svg
