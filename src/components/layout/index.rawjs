@@ -1,0 +1,32 @@
+import React, { Component } from 'react'
+import Header from '../header.js'
+import Navbar from '../navbar/menu.js'
+import About from '../about.js'
+import Services from '../services.js'
+import Portfolio from '../portfolio.js'
+import Contact from '../contact.js'
+import Footer from '../footer.js'
+import Carousel from '../carousels.js'
+import '../creative.css'
+
+// code syntax-highlighting theme
+// feel free to change it to another one
+// main site style
+
+  export default class layout extends Component{
+
+  render(){
+  return (
+      <div class="layout">
+        <Navbar />
+        <Header />
+        <About />
+        <Carousel />
+        <Services />
+        <Portfolio />
+        <Contact />
+        <Footer />
+      </div>
+      );
+    }
+  }
